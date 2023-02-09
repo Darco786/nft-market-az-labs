@@ -7,6 +7,9 @@ function NftUserProfile() {
   return (
     <>
       <section className="bg-profile">
+        <div className="pink-blur">
+
+        </div>
         <div className="container">
           <div className="row ">
             <div className="col-md-12">

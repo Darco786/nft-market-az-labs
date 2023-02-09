@@ -140,6 +140,12 @@
     justify-content: space-between;
     margin-top: 1.4%;
 }
+.pink-blur{
+  width: auto;
+  height: 75px;
+  background: rgba(119, 48, 116, 0.74);
+filter: blur(98.5px);
+}
 .following h2 {
   font-family: "Poppins";
   font-style: normal;
