@@ -9,8 +9,9 @@
 body{
   background-color: var(--prime-color-black) !important;
   background-image: url('assets/bg-main.png');
-  background-size: contain;
+  background-size: cover;
   font-family: 'Poppins', sans-serif !important;
+  background-repeat: no-repeat;
 }
 a{
   color: #fff;

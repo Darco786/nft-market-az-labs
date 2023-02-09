@@ -130,7 +130,16 @@
 
   color: rgba(255, 255, 255, 0.51);
 }
-
+.side-border{
+  display: flex;
+    justify-content: space-between;
+    margin-top: 31.4%;
+}
+.side-border2{
+  display: flex;
+    justify-content: space-between;
+    margin-top: 1.4%;
+}
 .following h2 {
   font-family: "Poppins";
   font-style: normal;
