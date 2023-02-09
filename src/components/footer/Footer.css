@@ -1,0 +1,65 @@
+.foot-img-logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+
+footer{
+    border-top: 1px solid #fff;
+}
+
+.footer-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.copy-right h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.foot-menu-box a{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.foot-menu-box{
+    display: flex;
+    gap: 2rem;
+}
+
+.foot-icon {
+    display: flex;
+    gap: 2rem;
+}
+.foot-icon a{
+    font-size: 20px;
+    color: #fff;
+}
+
+@media (max-width:768px) {
+    .footer-grid {
+        flex-direction: column;
+        display: flex;
+    }
+    
+}

@@ -1,0 +1,96 @@
+.nft-grid{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 2rem;
+    color: #fff;
+}
+
+
+.nft-con-sec{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.nft-card-box{
+    background: #1F1E26;
+    border-radius: 28px;
+    padding: 6%;
+}
+.card-img{
+    height: 230px;
+    width: 260px !important;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+}
+.title h2{
+    font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+.title span{
+    cursor: pointer;
+    font-size: 20px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+}
+.price p{
+font-size: 18px;
+line-height: 22px;
+color: #1E50FF;
+}
+.price span {
+    background: #1E50FF;
+    border-radius: 55px;
+    padding: 2px 6px;
+    margin-bottom: 1rem;
+}
+.nft-username{
+    font-weight: 400;
+    font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.54);
+}
+.btn-nft-buy{
+background: #1E50FF;
+border-radius: 17px;
+display: block;
+width: 100%;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+padding: 10px;
+text-align: center;
+color: #FFFFFF;
+}
+
+@media (max-width:768px) {
+    .card-img {
+        height: 159px;
+        width: 170px !important;
+    }
+
+    .btn-nft-buy {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 6px;
+    }
+
+    .nft-grid {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 0.5rem;
+        color: #fff;
+    }
+    
+}
