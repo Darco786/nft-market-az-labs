@@ -17,7 +17,8 @@
 }
 .profile-box {
   position: relative;
-  bottom: 23%;
+  bottom: 18%;
+  text-align: center;
 }
 .user_name h2 {
   font-family: "Poppins";
@@ -35,6 +36,7 @@
   gap: 8px;
   align-items: center;
   margin-top: 20px;
+  justify-content: center;
 }
 .verify-img {
   height: 20px;
@@ -42,13 +44,13 @@
 }
 
 .user_details {
-  margin-top: 16px;
+  margin-top: 6px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
-  padding-right: 26%;
+
   color: #ffffff;
 }
 .social-share a {
@@ -72,12 +74,14 @@
   align-items: center;
   overflow: hidden;
   gap: 4rem;
-  margin-top: 70px;
+  margin-top: 38px;
   position: relative;
 
-  float: right;
+  justify-content: center;
 }
-
+.bg-profile{
+  background-color: #000000e3;
+}
 .collect,
 .following {
   border-right: 1px solid rgba(255, 255, 255, 0.32);

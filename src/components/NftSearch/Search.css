@@ -2,6 +2,7 @@
 .sc-box{
     padding-top: 4%;
     padding-bottom: 2%;
+    background-color: #000000e8;
 }
 .search-bar-box{
     display: flex;

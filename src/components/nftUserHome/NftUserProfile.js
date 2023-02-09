@@ -1,13 +1,12 @@
 import React from "react";
 import User_Img from'../../assets/user.png'
 import Verify_img from '../../assets/verify.svg'
-import {BsGlobe,BsTwitter,BsFillShareFill,BsThreeDots} from 'react-icons/bs'
-import {AiFillInstagram,AiOutlineStar} from 'react-icons/ai'
+import NftNavList from '../NftNavList/NftNavList'
 
 function NftUserProfile() {
   return (
     <>
-      <section>
+      <section className="bg-profile">
         <div className="container">
           <div className="row ">
             <div className="col-md-12">
@@ -47,6 +46,7 @@ function NftUserProfile() {
 
          
           </div>
+          <NftNavList/>
         </div>
       </section>
     </>

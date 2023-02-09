@@ -16,26 +16,29 @@
 .user-menu ul li .nav-user-link-active {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  border-bottom: 2px solid;
-  padding-bottom: 16px;
+  background: #FFFFFF;
+border-radius: 63px;
+padding: 6px 16px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
 .nav-user-link {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height */
-
+  background: #1F1E26;
+  border-radius: 63px;
+  padding: 6px 16px;
   text-align: center;
 
-  color: rgba(255, 255, 255, 0.51);
+  color:  rgba(255, 255, 255, 0.51);
+  
 }
 
 @media (max-width: 768px) {

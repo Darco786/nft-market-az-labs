@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/footLogo.png'
+import Logo from '../../assets/foot-img.png'
 import './Footer.css'
 
 import {BsFacebook,BsTwitter,BsDiscord} from 'react-icons/bs'
@@ -8,10 +8,11 @@ import {AiFillInstagram} from 'react-icons/ai'
 function Footer() {
   return (
     <>
+  
+    <footer>
     <div className='foot-img-logo'>
         <img src={Logo} alt="Foot"/>
     </div>
-    <footer>
         <div className='container'>
             <div className='footer-grid'>
                 <div className='copy-right'>
