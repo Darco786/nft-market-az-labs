@@ -4,6 +4,9 @@ import Logo from '../../assets/logo.png'
 function Navbar() {
   return (
     <>
+    <div className="head-1">
+    
+    </div>
       <nav className="navbar navbar-expand-lg ">
         <div className="container">
          <div>

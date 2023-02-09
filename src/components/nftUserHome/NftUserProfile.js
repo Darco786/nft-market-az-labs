@@ -10,7 +10,7 @@ function NftUserProfile() {
       <section>
         <div className="container">
           <div className="row ">
-            <div className="col-md-6">
+            <div className="col-md-12">
                 <div className="profile-box">
                     
                 
@@ -23,31 +23,9 @@ function NftUserProfile() {
               </div>
               <p className="user_details">
                 Lorem ipsum dolor sit amet consectetur. Risus ut id velit
-                hendrerit nunc tristique non malesuada malesuada. Eu lacus sed
-                imperdiet elementum ipsum duis at ridiculus rhoncus.{" "}
+                
               </p>
-              </div>
-            </div>
-
-            <div className="col-md-6">
-                <div className="share-box">
-                    <div className="social-share">
-                        <a href="/"><BsGlobe/></a>
-                        <a href="/"><AiFillInstagram/> </a>
-                        <a href="/"><BsTwitter/> </a>
-                        <span href="/" style={{color:'GrayText',fontSize:'30px'}} > | </span>
-                        <a href="/"><AiOutlineStar/> </a>
-                        <a href="/"><BsFillShareFill/> </a>
-
-                        <a href="/"><BsThreeDots/> </a>
-                        
-
-                        
-                    </div>
-                    
-                </div>
-
-                <div className="follow-box">
+              <div className="follow-box">
                   <div className="collect">
                     <span>Collectors</span>
                     <h2>159</h2>
@@ -64,7 +42,10 @@ function NftUserProfile() {
                   </div>
 
                 </div>
+              </div>
             </div>
+
+         
           </div>
         </div>
       </section>

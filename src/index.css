@@ -8,6 +8,8 @@
 
 body{
   background-color: var(--prime-color-black) !important;
+  background-image: url('assets/bg-main.png');
+  background-size: contain;
   font-family: 'Poppins', sans-serif !important;
 }
 a{

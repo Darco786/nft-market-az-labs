@@ -1,7 +1,9 @@
 nav {
-  background: var(--prime-color-black) !important;
+  background: transparent !important;
   padding-top: 15px !important;
   padding-bottom: 20px !important;
+  position: absolute !important;
+  width: 100%;
 }
 .nav-link {
   color: var(--ns-white-color) !important;
@@ -21,7 +23,8 @@ line-height: 18px !important;
   color: var(--secondary-color-dark-blue) !important;
 }
 .btn-connect {
-  background: #1e50ff;
+  background: #1e4fff00;
+  border: 1px solid #FFFFFF;
   border-radius: 41px;
   padding: 10px 20px;
   font-family: "Poppins";
@@ -35,3 +38,22 @@ line-height: 18px !important;
 
   color: #ffffff;
 }
+.head-1{
+  position: absolute;
+  width: 81%;
+  height: 210px;
+  overflow: hidden;
+  /* left: 1446.36px; */
+  top: -55px;
+  background: #000000;
+  filter: blur(69px);
+  transform: rotate(176.26deg);
+}
+
+@media (max-width:768px) {
+  .head-1{
+    display: none;
+  }
+  
+}
+

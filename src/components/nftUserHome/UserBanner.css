@@ -3,34 +3,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 290px;
+  height: 530px;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-.edit-box {
-  display: flex;
-  float: right;
-  position: relative;
-  top: 89%;
-  right: 8%;
-}
-.btn-edit {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.38);
-  backdrop-filter: blur(16px);
-  padding: 6px 40px;
-  border-radius: 11px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
 
-  text-align: center;
 
-  color: #ffffff;
-}
 .profile-img {
   width: auto;
   height: 120px;
