@@ -10,6 +10,9 @@ function NftUserProfile() {
         <div className="pink-blur">
 
         </div>
+        <div className="pink-blur2">
+
+        </div>
         <div className="container">
           <div className="row ">
             <div className="col-md-12">
