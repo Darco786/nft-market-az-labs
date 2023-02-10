@@ -192,6 +192,23 @@
 }
 
 @media (max-width: 768px) {
+
+  .pink-blur{
+    display: none;
+  }
+
+  .pink-blur2{
+    display: none;
+  }
+  .side-border {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 118.4%;
+}
+
+.side-border img{
+  width: 20%;
+}
   .share-box {
     margin-top: -76px;
   }
