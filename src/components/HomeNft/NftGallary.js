@@ -11,13 +11,12 @@ import Img9 from '../../assets/gallary/gal9.png'
 import Img10 from '../../assets/gallary/gal10.png'
 import Img11 from '../../assets/gallary/gal11.png'
 import Img12 from '../../assets/gallary/gal12.png'
-
 import Img14 from '../../assets/gallary/gal14.png'
 
 function NftGallary() {
   return (
     <>
-    
+   
     <section className='sc-gal'>
         <div className='container'>
 
@@ -34,7 +33,7 @@ function NftGallary() {
             </div>
             <div>
             <img src={Img7}alt=""/>
-            <img src={Img5} alt=""/>
+            <img src={Img5} alt="" className='gal-5'/>
             </div>
      
 
@@ -49,11 +48,11 @@ function NftGallary() {
               </div>
             <div>
             <img src={Img10} alt=""/>
-            <img src={Img11} alt=""/>
+            <img src={Img11} alt="" className='gal-10'/>
            
             </div>
             <div>
-            <img src={Img12} alt=""/>
+            <img src={Img12} alt="" />
             <img src={Img14} alt=""/>
            
             </div>
