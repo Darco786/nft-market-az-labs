@@ -32,7 +32,11 @@ function Navbar() {
               
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='/profile'>profile</Link>
+                <Link className="nav-link" to='/profile'>Profile</Link>
+              
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to='/dapp'>Dapp</Link>
               
               </li>
             
