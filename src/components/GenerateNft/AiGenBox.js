@@ -13,7 +13,7 @@ function AiGenBox() {
             <div className='ai-main-box-grid'>
                 <div className='ai-img-box'>
                     <img src={AiImg1} alt=""/>
-                    <a href="/" className='ai-btn'>anime</a>
+                    <a href="/" className='ai-btn'>Normal</a>
 
                 </div>
 
@@ -22,26 +22,26 @@ function AiGenBox() {
 
                 <div className='ai-img-box'>
                 <img src={AiImg1} alt=""/>
-                    <a href="/" className='ai-btn'>anime</a>
+                    <a href="/" className='ai-btn'>Anime</a>
 
                 </div>
 
 
                 <div className='ai-img-box'>
                 <img src={AiImg1} alt=""/>
-                    <a href="/" className='ai-btn'>anime</a>
+                    <a href="/" className='ai-btn'>2D</a>
 
                 </div>
 
                 <div className='ai-img-box'>
                 <img src={AiImg1} alt=""/>
-                    <a href="/" className='ai-btn'>anime</a>
+                    <a href="/" className='ai-btn'>3D</a>
 
                 </div>
 
                 <div className='ai-img-box'>
                 <img src={AiImg1} alt=""/>
-                    <a href="/" className='ai-btn'>anime</a>
+                    <a href="/" className='ai-btn'>Realistic</a>
 
                 </div>
 
