@@ -1,5 +1,9 @@
 import React from 'react'
 import AiImg1 from '../../assets/genai/ai1.png'
+import AiImg2 from '../../assets/genai/ai2.png'
+import AiImg3 from '../../assets/genai/ai3.png'
+import AiImg4 from '../../assets/genai/ai4.png'
+import AiImg5 from '../../assets/genai/ai5.png'
 
 function AiGenBox() {
   return (
@@ -21,26 +25,26 @@ function AiGenBox() {
 
 
                 <div className='ai-img-box'>
-                <img src={AiImg1} alt=""/>
+                <img src={AiImg2} alt=""/>
                     <a href="/" className='ai-btn'>Anime</a>
 
                 </div>
 
 
                 <div className='ai-img-box'>
-                <img src={AiImg1} alt=""/>
+                <img src={AiImg3} alt=""/>
                     <a href="/" className='ai-btn'>2D</a>
 
                 </div>
 
                 <div className='ai-img-box'>
-                <img src={AiImg1} alt=""/>
+                <img src={AiImg4} alt=""/>
                     <a href="/" className='ai-btn'>3D</a>
 
                 </div>
 
                 <div className='ai-img-box'>
-                <img src={AiImg1} alt=""/>
+                <img src={AiImg5} alt=""/>
                     <a href="/" className='ai-btn'>Realistic</a>
 
                 </div>

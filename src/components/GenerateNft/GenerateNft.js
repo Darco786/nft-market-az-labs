@@ -7,6 +7,8 @@ import CenterImg from '../../assets/market/center.png'
 import RightImg from '../../assets/market/right.png'
 import LeftImg from '../../assets/market/left.png'
 import SideImg from '../../assets/market/side.png'
+import { HiOutlineBars3BottomLeft } from "react-icons/hi2";
+import {  BsSearch } from "react-icons/bs";
 
 function GenerateNft() {
   return (
@@ -20,7 +22,19 @@ function GenerateNft() {
     <section className='gen-a'>
         <div className='generate-sec'>
             <div class="container">
-            
+            <div className='ai-search-box'>
+                <div className='wrap-search'>
+                <span className="bar">
+          <HiOutlineBars3BottomLeft />
+        </span>
+        <span className="fa fa-search ">
+            <BsSearch />
+          </span>
+          <input type="text" className=" sc-input" placeholder="Search" />
+
+                </div>
+
+            </div>
             </div>
             <AiGenBox/>
         </div>
