@@ -75,3 +75,18 @@
 .gal-10{
   height: 277px;
 }
+
+.gal-bar{
+  width: 100%;
+  margin-top: 35px;
+  height: 18px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+.ring{
+  font-size: 12px;
+  position: absolute;
+  color: #ffffff;
+  margin-top: 0px;
+  left: 50%;
+}

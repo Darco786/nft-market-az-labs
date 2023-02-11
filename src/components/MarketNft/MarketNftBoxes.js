@@ -40,7 +40,7 @@ function MarketNftBoxes() {
           </div>
           <div className="title">
             <h2>Purples</h2>
-            <span>
+            <span style={{color: '#1E50FF'}}>
               <FaEthereum /> 4 ETH
             </span>
           </div>
@@ -77,7 +77,7 @@ function MarketNftBoxes() {
           </div>
           <div className="title">
             <h2>Purples</h2>
-            <span>
+            <span style={{color: '#1E50FF'}}>
               <FaEthereum /> 4 ETH
             </span>
           </div>
@@ -116,7 +116,7 @@ function MarketNftBoxes() {
           </div>
           <div className="title">
             <h2>Purples</h2>
-            <span>
+            <span style={{color: '#1E50FF'}}>
               <FaEthereum /> 4 ETH
             </span>
           </div>
@@ -155,7 +155,7 @@ function MarketNftBoxes() {
           </div>
           <div className="title">
             <h2>Purples</h2>
-            <span>
+            <span style={{color: '#1E50FF'}}>
               <FaEthereum /> 4 ETH
             </span>
           </div>
@@ -194,7 +194,7 @@ function MarketNftBoxes() {
           </div>
           <div className="title">
             <h2>Purples</h2>
-            <span>
+            <span style={{color: '#1E50FF'}}>
               <FaEthereum /> 4 ETH
             </span>
           </div>
@@ -232,7 +232,7 @@ function MarketNftBoxes() {
           </div>
           <div className="title">
             <h2>Purples</h2>
-            <span>
+            <span style={{color: '#1E50FF'}}>
               <FaEthereum /> 4 ETH
             </span>
           </div>
@@ -270,7 +270,7 @@ function MarketNftBoxes() {
           </div>
           <div className="title">
             <h2>Purples</h2>
-            <span>
+            <span style={{color: '#1E50FF'}}>
               <FaEthereum /> 4 ETH
             </span>
           </div>
@@ -308,7 +308,7 @@ function MarketNftBoxes() {
           </div>
           <div className="title">
             <h2>Purples</h2>
-            <span>
+            <span style={{color: '#1E50FF'}}>
               <FaEthereum /> 4 ETH
             </span>
           </div>

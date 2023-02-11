@@ -7,6 +7,8 @@ import CenterImg from '../../assets/market/center.png'
 import RightImg from '../../assets/market/right.png'
 import LeftImg from '../../assets/market/left.png'
 import SideImg from '../../assets/market/side.png'
+import {BsFillRecordCircleFill} from 'react-icons/bs'
+
 
 function HomeNft() {
   return (
@@ -34,7 +36,16 @@ function HomeNft() {
                     <li><a href="/" className='list-btn'>Interior design</a></li>
                     
                 </ul>
+<div className='container'>
+  <div className='gal-bar'>
+    <div className='gal-fill'>
+      <span className='ring'> <BsFillRecordCircleFill/></span>
+     
+    </div>
 
+  </div>
+
+</div>
                 <div>
                   <NftGallary/>
                 </div>
