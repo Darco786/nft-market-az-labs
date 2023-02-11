@@ -4,6 +4,7 @@ nav {
   padding-bottom: 20px !important;
   position: absolute !important;
   width: 100%;
+  z-index: 999;
 }
 .nav-link {
   color: var(--ns-white-color) !important;

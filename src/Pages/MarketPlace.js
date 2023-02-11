@@ -1,16 +1,15 @@
-import React from 'react'
 import Footer from '../components/footer/Footer'
-import HomeNft from '../components/HomeNft/HomeNft'
+import MarketNft from '../components/MarketNft/MarketNft'
 import Navbar from '../components/Navbar/Navbar'
 
-function Home() {
+function MarketPlace() {
   return (
     <>
-    <Navbar/>
-    <HomeNft/>
+      <Navbar/>
+    <MarketNft/>
     <Footer/>
     </>
   )
 }
 
-export default Home
+export default MarketPlace

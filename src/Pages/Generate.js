@@ -1,16 +1,15 @@
-import React from 'react'
 import Footer from '../components/footer/Footer'
-import HomeNft from '../components/HomeNft/HomeNft'
+import GenerateNft from '../components/GenerateNft/GenerateNft'
 import Navbar from '../components/Navbar/Navbar'
 
-function Home() {
+function Generate() {
   return (
     <>
-    <Navbar/>
-    <HomeNft/>
+      <Navbar/>
+<GenerateNft/>
     <Footer/>
     </>
   )
 }
 
-export default Home
+export default Generate

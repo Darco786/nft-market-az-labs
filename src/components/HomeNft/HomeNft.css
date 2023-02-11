@@ -1,0 +1,56 @@
+.sec-home-nft {
+  padding-top: 8.2%;
+  background: #000000e6;
+}
+.nft-home-box {
+  background: linear-gradient(
+    178.33deg,
+    rgba(255, 255, 255, 0.09) 1.42%,
+    rgba(255, 255, 255, 0) 76.29%
+  );
+  -webkit-backdrop-filter: blur(15.5px);
+  backdrop-filter: blur(15.5px);
+  border-radius: 64px 64px 0px 0px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.nft-btn-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.nft-btn-list li {
+  list-style: none;
+}
+.list-btn {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 58px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 8px 39px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.list-btn-active{
+  background: rgba(7, 27, 243, 0.76);
+  backdrop-filter: blur(7px);
+  border-radius: 58px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 8px 39px;
+  text-align: center;
+  color: #ffffff;
+}

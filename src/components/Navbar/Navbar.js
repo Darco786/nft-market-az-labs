@@ -1,6 +1,7 @@
 import React from "react";
 import './Nav.css'
 import Logo from '../../assets/logo.png'
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
@@ -19,48 +20,22 @@ function Navbar() {
           <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
-                  HOME
-                </a>
+                <Link className="nav-link active" to='/'>HOME</Link>
+              
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                MARKETPLACE
-                </a>
+                <Link className="nav-link" to='/nft-market'> MARKETPLACE</Link>
+                
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                GENERATE
-                </a>
+                <Link className="nav-link" to='/generate'>GENERATE</Link>
+              
               </li>
-              {/* <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="/"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown link
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
+              <li className="nav-item">
+                <Link className="nav-link" to='/profile'>profile</Link>
+              
+              </li>
+            
             </ul>
           </div>
 
