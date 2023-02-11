@@ -27,10 +27,10 @@ function GenerateNft() {
                 <span className="bar">
           <HiOutlineBars3BottomLeft />
         </span>
-        <span className="fa fa-search ">
+        <span className="fa-search2 ">
             <BsSearch />
           </span>
-          <input type="text" className=" sc-input" placeholder="Search" />
+          <input type="text" className=" sc-input2" placeholder="Search" />
 
                 </div>
 

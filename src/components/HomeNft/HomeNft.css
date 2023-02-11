@@ -5,8 +5,8 @@
 .nft-home-box {
   background: linear-gradient(
     178.33deg,
-    rgba(255, 255, 255, 0.09) 1.42%,
-    rgba(255, 255, 255, 0) 76.29%
+    rgb(66 66 66 / 36%) 1.42%,
+    rgb(0 0 0 / 93%) 85.29%
   );
   -webkit-backdrop-filter: blur(15.5px);
   backdrop-filter: blur(15.5px);
@@ -16,7 +16,7 @@
 }
 .nft-btn-list {
   display: flex;
-  gap: 20px;
+  gap: 5px;
   justify-content: center;
   align-items: center;
 }
@@ -34,14 +34,16 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  padding: 8px 39px;
+  padding: 8px 30px;
 
   text-align: center;
 
   color: #ffffff;
 }
-
-.list-btn-active{
+.list-btn:hover {
+  background-color: rgba(7, 27, 243, 0.76);
+}
+.list-btn-active {
   background: rgba(7, 27, 243, 0.76);
   backdrop-filter: blur(7px);
   border-radius: 58px;
@@ -53,4 +55,17 @@
   padding: 8px 39px;
   text-align: center;
   color: #ffffff;
+}
+.nft-gallery-1{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  
+}
+.nft-gallery-1 img{
+  margin-bottom: 20px;
+  width: 92%;
+}
+
+.sc-gal{
+  margin-top: 3rem;
 }

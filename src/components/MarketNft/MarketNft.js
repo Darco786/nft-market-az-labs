@@ -57,11 +57,12 @@ function MarketNft() {
               <NftSearchBlock/>
             </div>
           </div>
+          <MarketNftBoxes />
           </div>
-          
+         
         </div>
       </section>
-      <MarketNftBoxes />
+      
     </>
   );
 }

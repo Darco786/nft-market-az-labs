@@ -12,7 +12,7 @@ import Nft8 from "../../assets/nfts/nft8.png";
 import ProgressBar from "@ramonak/react-progress-bar";
 function MarketNftBoxes() {
   return (
-    <section className="nft-con-sec">
+    <section className="nft-con-sec2">
     <div className="container">
       <div className="nft-grid">
         {/* card-1 start */}

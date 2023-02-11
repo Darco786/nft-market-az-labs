@@ -1,7 +1,7 @@
 .generate-sec {
   background: linear-gradient(
     178.33deg,
-    rgba(255, 255, 255, 0.09) 1.42%,
+    rgb(66 66 66 / 36%) 1.42%,
     rgb(0 0 0 / 93%) 85.29%
   );
   backdrop-filter: blur(15.5px);
@@ -60,4 +60,25 @@ width: 100%;
   /* identical to box height */
 
   color: #ffffff;
+}
+.wrap-search{
+  display: flex;
+    gap: 6px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+    margin-bottom: 50px;
+}
+
+.sc-input2 {
+  width: 100%;
+  background: transparent;
+  border: none;
+
+  border-radius: 0;
+  color: #fff;
+}
+
+.fa-search2 {
+color: #86858A;
+font-size: 14px;
 }
