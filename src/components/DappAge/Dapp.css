@@ -1,0 +1,7 @@
+.dapp-bg{
+    background-image: url('../../assets//banner-dapp.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
