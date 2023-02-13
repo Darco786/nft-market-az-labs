@@ -53,6 +53,29 @@ function DappSearch() {
               <h2 className="n-63">63</h2>
             </div>
           </div>
+
+       
+        </div>
+
+        <div className="connect-grid">
+        <div>
+           <div class="mb-3 d-flex gap-2 align-items-center list-btn2">
+             <label for="" class="form-label">Sort By : </label>
+             <select class="" name="" id="">
+               <option selected>Core</option>
+               <option value="">New Delhi</option>
+               <option value="">Istanbul</option>
+               <option value="">Jakarta</option>
+             </select>
+           </div>
+         
+       </div>
+
+       <div>
+       <a href="/" className="list-btn3">
+          Connect Wallet
+         </a>
+       </div>
         </div>
       </div>
     </>

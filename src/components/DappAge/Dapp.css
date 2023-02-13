@@ -79,6 +79,21 @@
   color: #ffffff;
 }
 
+.list-btn3 {
+    background: rgb(255, 255, 255);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    border-radius: 58px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 30px;
+    text-align: center;
+    color: #000000;
+  }
+
 .nnn {
   display: flex;
   gap: 5px;
@@ -208,8 +223,24 @@ margin-bottom: 0px;
   align-items: center;
 }
 .st-1{
-
+    width: 72%;
+    left: 15%;
     margin-top: -23px;
     position: absolute;
 }
+
+.connect-grid{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+}
    
+select{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.form-label{
+    margin-bottom: 0px !important;
+}
