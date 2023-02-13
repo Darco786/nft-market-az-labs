@@ -39,6 +39,7 @@ function DappBoxes() {
                 </a>
               </div>
             </div>
+            <img src={Line} alt=""  className="st-1"/>
 
             <div className="stake-box">
               <div className="sub-stake-box">
@@ -108,25 +109,7 @@ function DappBoxes() {
               </div>
             </div>
 
-            <div className="stake-box">
-              <div className="sub-stake-box">
-                <img src={Prof} alt="" />
-                <p>BabyDoge</p>
-                <p>0.00 USD</p>
-                <p>4,284,630,125,780,196</p>
-                <p>61%</p>
-                <p>56 Days</p>
-                <a href="/" className="core-btn">
-                  <span className="vr-sk">
-                    <MdVerified />
-                  </span>
-                  Core
-                </a>
-                <a href="/" className="stake-connect">
-                  Connect Wallet
-                </a>
-              </div>
-            </div>
+            <img src={Line} alt=""  className="st-1"/>
 
             <div className="stake-box">
               <div className="sub-stake-box">
@@ -148,6 +131,8 @@ function DappBoxes() {
               </div>
             </div>
 
+            <img src={Line} alt=""  className="st-1"/>
+
             <div className="stake-box">
               <div className="sub-stake-box">
                 <img src={Prof} alt="" />
@@ -167,6 +152,30 @@ function DappBoxes() {
                 </a>
               </div>
             </div>
+
+            <img src={Line} alt=""  className="st-1"/>
+
+            <div className="stake-box">
+              <div className="sub-stake-box">
+                <img src={Prof} alt="" />
+                <p>BabyDoge</p>
+                <p>0.00 USD</p>
+                <p>4,284,630,125,780,196</p>
+                <p>61%</p>
+                <p>56 Days</p>
+                <a href="/" className="core-btn">
+                  <span className="vr-sk">
+                    <MdVerified />
+                  </span>
+                  Core
+                </a>
+                <a href="/" className="stake-connect">
+                  Connect Wallet
+                </a>
+              </div>
+            </div>
+
+            <img src={Line} alt=""  className="st-1"/>
           </div>
         </section>
       </div>
