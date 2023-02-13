@@ -68,5 +68,9 @@ color: #FFFFFF;
         flex-direction: column;
         display: flex;
     }
+
+    .foot-img-logo{
+        display: none;
+    }
     
 }

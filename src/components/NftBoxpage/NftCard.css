@@ -93,8 +93,15 @@
 
   .nft-grid {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 0.5rem;
+    grid-template-columns: repeat(1, auto);
+    gap: 1.5rem;
     color: #fff;
   }
+
+  .nft-card-box {
+    background: #1f1e26;
+    border-radius: 28px;
+    padding: 8%;
+    margin: 5%;
+}
 }

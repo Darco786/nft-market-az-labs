@@ -55,6 +55,15 @@ line-height: 18px !important;
   .head-1{
     display: none;
   }
+
+  nav{
+    background: #060404f5 !important;
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+    position: unset !important;
+    width: 100%;
+    z-index: 999;
+  }
   
 }
 

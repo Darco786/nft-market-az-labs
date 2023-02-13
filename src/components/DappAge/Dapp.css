@@ -255,3 +255,13 @@ select{
     position: absolute;
     left: 0;
 }
+
+@media (max-width:768px) {
+    .dapp-bg {
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 156px;
+    }
+    
+}

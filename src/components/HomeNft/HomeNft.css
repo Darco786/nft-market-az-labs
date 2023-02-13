@@ -90,3 +90,26 @@
   margin-top: 0px;
   left: 50%;
 }
+
+@media (max-width:768px) {
+  .nft-btn-list{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 5px;
+
+
+    align-items: center;
+    margin: auto
+  }
+
+  .nft-btn-list li{
+    margin-bottom: 20px;
+  }
+
+  .gal-5{
+    height: 150px;
+  }
+  .gal-10 {
+    height: auto;
+}
+}

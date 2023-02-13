@@ -82,3 +82,15 @@ width: 100%;
 color: #86858A;
 font-size: 14px;
 }
+
+@media (max-width:768px) {
+
+  .ai-main-box-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+  .ai-img-box{
+    margin: 1% 16%;
+  }
+  
+}
