@@ -58,6 +58,55 @@ function DappBoxes() {
                   Connect Wallet
                 </a>
               </div>
+              <div className="more-stake-box">
+                <div className="grid-more">
+                    <div>
+                        <h2>My Deposit: 0 BabyDoge</h2>
+
+                        <span>Get BabyDoge</span>
+                    </div>
+
+                </div>
+
+                <div className="grid-more">
+                    <div>
+                        <h2>My Deposit: 0 BabyDoge</h2>
+
+                        <span>Get BabyDoge</span>
+                    </div>
+
+                </div>
+
+
+                <div className="grid-more">
+                    <div>
+                        <h2>My Deposit: 0 BabyDoge</h2>
+
+                        <span>Get BabyDoge</span>
+                    </div>
+
+                </div>
+
+
+                <div className="grid-more">
+                    <div>
+                        <h2>My Deposit: 0 BabyDoge</h2>
+
+                        <span>Get BabyDoge</span>
+                    </div>
+
+                </div>
+
+
+                <div className="grid-more">
+                    <div>
+                        <h2>My Deposit: 0 BabyDoge</h2>
+
+                        <span>Get BabyDoge</span>
+                    </div>
+
+                </div>
+              </div>
             </div>
 
             <div className="stake-box">

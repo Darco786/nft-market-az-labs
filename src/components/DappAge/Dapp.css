@@ -172,3 +172,8 @@ color: #fff;
     list-style: none;
     color: #fff;
 }
+
+.more-stake-box{
+    display: grid;
+    grid-template-columns: repeat(3 ,auto);
+}
