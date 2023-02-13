@@ -1,7 +1,31 @@
 .dapp-bg{
     background-image: url('../../assets//banner-dapp.png');
-    background-position: center;
+
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 570px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.s-box{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    /* justify-content: space-between; */
+}
+
+.s-flex-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-s-box{
+    background: rgba(255, 255, 255, 0.12);
+border-radius: 63px;
+padding: 6px 16px;
+}
+.main-s-box input {
+    background: transparent;
+    outline: none;
+    border: none;
 }
