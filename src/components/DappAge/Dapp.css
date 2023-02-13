@@ -102,3 +102,52 @@ font-size: 18px;
     font-weight: 700;
 }
 
+.sub-stake-box{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stake-box{
+    display: grid;
+    background: #201F27;
+    border-radius: 40px;
+    color: #ffffff;
+    padding: 18px 16px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sub-stake-box p{
+    
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+margin-bottom: 0px;
+color: #FFFFFF;
+}
+
+
+.sub-stake-box .core-btn{
+    border: 1px solid #AEFF40;
+border-radius: 13px;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+padding: 11px 12px;
+color: #AEFF40;
+}
+.stake-connect{
+    background: rgba(255, 255, 255, 0.12);
+border-radius: 13px;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+padding: 11px 12px;
+color: #fff;
+}

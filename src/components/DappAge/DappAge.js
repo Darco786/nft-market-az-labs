@@ -1,5 +1,6 @@
 import React from 'react'
 import './Dapp.css'
+import DappBoxes from './DappBoxes'
 import DappSearch from './DappSearch'
 
 function DappAge() {
@@ -15,6 +16,7 @@ function DappAge() {
     
     <div className='nft-home-box' style={{marginBottom:'50%'}}>
       <DappSearch/>
+      <DappBoxes/>
 
       </div>
       </>
