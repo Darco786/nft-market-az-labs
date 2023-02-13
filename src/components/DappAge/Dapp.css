@@ -244,3 +244,14 @@ select{
 .form-label{
     margin-bottom: 0px !important;
 }
+
+.Right-line{
+    position: absolute;
+    right: 0;
+}
+
+
+.Left-line{
+    position: absolute;
+    left: 0;
+}
