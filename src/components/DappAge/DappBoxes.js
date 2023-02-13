@@ -60,49 +60,48 @@ function DappBoxes() {
               </div>
               <div className="more-stake-box">
                 <div className="grid-more">
-                    <div>
-                        <h2>My Deposit: 0 BabyDoge</h2>
+                    <div className='depo-g'>
+                        <h2>My Deposit: <span className='baby-d'> 0 BabyDoge </span></h2>
 
-                        <span>Get BabyDoge</span>
+                       <span className='baby-g'> Get  BabyDoge</span>
                     </div>
 
                 </div>
 
                 <div className="grid-more">
-                    <div>
-                        <h2>My Deposit: 0 BabyDoge</h2>
+                    <div className='depo-g'>
+                        <h2>Early Withdraw Fee:  <span className='baby-d'> 0% </span></h2>
 
-                        <span>Get BabyDoge</span>
-                    </div>
-
-                </div>
-
-
-                <div className="grid-more">
-                    <div>
-                        <h2>My Deposit: 0 BabyDoge</h2>
-
-                        <span>Get BabyDoge</span>
+                       <span className='baby-g'> See Token Info</span>
                     </div>
 
                 </div>
 
 
                 <div className="grid-more">
-                    <div>
-                        <h2>My Deposit: 0 BabyDoge</h2>
+                    <div className='depo-g'>
+                        <h2>SWEEP Earned:  <span className='baby-d'> 0 USD </span></h2>
 
-                        <span>Get BabyDoge</span>
+                       <span className='baby-g'> Harvest</span>
                     </div>
 
                 </div>
 
 
                 <div className="grid-more">
-                    <div>
-                        <h2>My Deposit: 0 BabyDoge</h2>
+                    <div className='depo-g'>
+                        <h2>Minimum Lock Time:  <span className='baby-d'> No Minimum</span></h2>
 
-                        <span>Get BabyDoge</span>
+                       <span className='baby-g'> View Contract</span>
+                    </div>
+
+                </div>
+
+                <div className="grid-more">
+                    <div className='depo-g'>
+                        <h2>Maximum Stake Per User:  <span className='baby-d'> 2000000000.0 </span></h2>
+
+                       {/* <span className='baby-g'> Get  BabyDoge</span> */}
                     </div>
 
                 </div>
