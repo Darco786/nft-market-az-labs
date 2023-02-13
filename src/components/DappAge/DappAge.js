@@ -14,7 +14,7 @@ function DappAge() {
       
     </section>
     
-    <div className='nft-home-box' style={{marginBottom:'10%'}}>
+    <div className='nft-home-box' style={{paddingBottom:'15%'}}>
       <DappSearch/>
       <DappBoxes/>
 
