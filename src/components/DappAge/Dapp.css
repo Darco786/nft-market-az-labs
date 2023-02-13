@@ -157,3 +157,18 @@ color: #fff;
 .vr-sk{
     font-size: 14px;
 }
+
+.stake-list {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.stake-list ul{
+    display: flex;
+    gap: 4rem;
+    margin-left: 10%;
+    margin-bottom: -5px;
+}
+.stake-list ul li{
+    list-style: none;
+    color: #fff;
+}
